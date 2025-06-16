@@ -13,9 +13,9 @@ public class OddEvenNumbers {
         
         for (int i = 1; i <= number; i++) {
             if (i % 2 == 0) {
-                System.out.println(i + " is even");
+                System.out.println(i + " is Even");
             } else {
-                System.out.println(i + " is odd");
+                System.out.println(i + " is Odd");
             }
         }
     }
