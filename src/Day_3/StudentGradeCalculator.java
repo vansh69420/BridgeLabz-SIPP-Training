@@ -84,4 +84,5 @@ public class StudentGradeCalculator {
                             names[i], physicsMarks[i], chemistryMarks[i], mathsMarks[i], 
                             percentages[i], grades[i], remarks[i]);
         }
+	}
 }
