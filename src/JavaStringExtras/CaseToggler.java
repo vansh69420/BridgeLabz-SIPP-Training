@@ -1,6 +1,7 @@
 package JavaStringExtras;
 import java.util.*;
 public class CaseToggler {
+	
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
