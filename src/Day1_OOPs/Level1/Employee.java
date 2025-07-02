@@ -1,4 +1,4 @@
-package Day1_OOPs;
+package Day1_OOPs.Level1;
 
 public class Employee {
     private String name;
