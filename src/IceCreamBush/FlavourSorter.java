@@ -1,14 +1,5 @@
 package IceCreamBush;
 
-class Flavour {
-    String name;
-    int sales;
-
-    public Flavour(String name, int sales) {
-        this.name = name;
-        this.sales = sales;
-    }
-}
 
 public class FlavourSorter {
     public static void bubbleSort(Flavour[] flavours) {
@@ -24,9 +15,6 @@ public class FlavourSorter {
     		}
     	}
     }
-    
-    
-    
 
     public static void displayFlavours(Flavour[] flavours) {
         for (Flavour f : flavours) {
@@ -36,10 +24,10 @@ public class FlavourSorter {
 
     public static void main(String[] args) {
         Flavour[] flavours = {
-            new Flavour("Vanilla", 15),
-            new Flavour("Chocolate", 25),
+            new Flavour("Vanilla", 45),
+            new Flavour("Chocolate", 67),
             new Flavour("Strawberry", 10),
-            new Flavour("Mango", 20)
+            new Flavour("Mango", 30)
         };
 
         System.out.println("Before sorting:");
